@@ -223,8 +223,9 @@ input {
 }
 
 .nav__toggle {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   cursor: pointer;
+  margin-right: 20px;
 }
 
 .nav__menu {
@@ -284,6 +285,7 @@ input {
 .scroll-header .nav__logo,
 .scroll-header .nav__toggle {
   color: var(--title-color);
+  /* margin: 33px !important; */
 }
 
 /* Active link */
@@ -1225,5 +1227,9 @@ input {
 @media(max-width:612px){
   .box{
       flex-grow: 0.7;
+  }
+  .home__container{
+    height: calc(20vh - var(--header-height));
+
   }
 }
